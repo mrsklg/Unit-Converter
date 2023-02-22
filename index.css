@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #E5E7EB;
+}
+
+#container {
+    width: 730px;
+    background: #1F2937;
+}
+
+#main {
+    background: #6943FF;
+    padding: 30px 50px;
+}
+
+#input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#num-input {
+    width: 117px;
+    padding: 5px;
+    margin: 30px 0;
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    text-align: center;
+}
+
+::placeholder {
+    color: #e5e5e5;
+}
+
+#convert-btn { 
+    padding: 10px 40px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+#conversions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 25px;
+}
+
+.conversion-box {
+    width: 500px;
+    margin: 12px 0;
+    background: #273549;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #CCC1FF;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
